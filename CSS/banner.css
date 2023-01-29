@@ -1,0 +1,8 @@
+.banner {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-image: url(../images/logo-iim-650x213.jpg);
+    color: azure;
+}  

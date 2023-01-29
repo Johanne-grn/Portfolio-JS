@@ -1,0 +1,42 @@
+.menu{
+    width: calc(100vw - 80px);
+    background-color: rgb(10, 10, 10);
+    padding: 20px;
+    font-size: 20px;
+    top:10px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    position: fixed;
+    animation: 7s infinite colorfull;
+    border-bottom: 10px solid transparent;
+}
+
+.menu a{
+    color: rgb(244, 246, 246);
+}
+
+.menu a:hover{
+    color: rgb(115, 250, 250);
+}
+
+@keyframes colorfull {
+    from {
+        border-bottom: 10px solid #fcb045;
+    }
+    20%{border-bottom: 10px solid #e24848;}
+
+    40%{border-bottom: 10px solid #46f1b6;}
+
+    60%{border-bottom: 10px solid #49cdd6;}
+
+    80%{border-bottom: 10px solid #c18de4}
+
+    to{
+        border-bottom: 10px solid #fcb045;
+    }
+    
+}

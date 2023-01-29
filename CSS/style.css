@@ -1,0 +1,51 @@
+@import url(boutons.css);
+@import url(banner.css);
+@import url(avatar.css);
+@import url(card.css);
+@import url(footer.css);
+@import url(navbarre.css);
+@import url(container.css);
+@import url(images.css);
+
+body{
+    margin:0;
+}
+
+main{
+padding: 30px;
+min-height: 65vh;
+}
+
+.liens{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.logo{
+    font-size: 2em;
+}
+
+.titre{
+    font-size: 3.5em;
+}
+
+.center{
+    text-align: center;
+}
+
+@media screen and (max-width:800px){
+  .grid{
+    grid-template-columns:100%;
+  }
+}

@@ -1,0 +1,16 @@
+.boutons{ 
+    background-color: blue;
+    color: azure;
+    display: block;
+    padding: 15px 25px;
+    border-radius: 25px;
+}
+.boutons.secondaire{
+    background-color: rgb(2,0,36); 
+    color: rgb(240, 246, 246);
+}
+
+.boutons:hover{
+    background-color: aqua;
+    color: black;
+}

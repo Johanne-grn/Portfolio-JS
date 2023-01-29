@@ -1,0 +1,18 @@
+img{
+    width: 100%;
+}
+img.medium{
+    width: 50%;
+}
+
+img.small{
+    width: 20%;
+}
+
+img.large{
+    width: 60%;
+}
+
+img.icon{
+    width: 50px;
+}
